@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="scripts/easyNotify.js"></script>
+    <script>
+        function not(){ var options = {
+
+            title: 'message from test',
+
+            options: {
+                body: "hellooo",
+                lang: 'en-US',
+            }
+
+        };
+
+            $("#easyNotify").easyNotify(options);
+        }
+    </script>
+    
+
+</head>
+<body>
+    <input type="button" id="easyNotify"  onclick="not()"/>
+</body>
+</html>
