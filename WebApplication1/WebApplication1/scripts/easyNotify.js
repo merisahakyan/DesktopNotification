@@ -15,7 +15,7 @@
         }, options);
 
         this.init = function () {
-
+            //test
             var notify = this;
             if (!("Notification" in window)) {
                 alert("This browser does not support desktop notification");
